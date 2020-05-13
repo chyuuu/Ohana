@@ -42,7 +42,7 @@ code {
 
 #footer {
   text-align: center;
-  padding: 10px; 
+  padding: 30px;
 }
 
 .footer-icon {
@@ -70,6 +70,22 @@ a:hover, a:visited {
   /* For Big-Ass Screens: */
   .top-image {
     width: 550px;
+    margin-left: calc(50% - 275px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .footer-icon {
+    width: 75px;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  /* For Big-Ass Screens: */
+  .footer-icon {
+    width: 100%;
     margin-left: calc(50% - 275px);
   }
 }
