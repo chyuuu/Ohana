@@ -26,14 +26,27 @@ code {
 
 
 /* icons section */
-.discord, .reddit{
+/* .discord, .reddit{
   width: 100px;
   padding: 10px;
+}
+
+.discord {
+  border-radius: 50px;
 }
 
 .icons {
   margin-left: 43%;
   position: static;
+} */
+
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  padding: 1% 1% 2%;
+  width: 100px;
 }
 
 /* .discord {
