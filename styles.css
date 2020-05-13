@@ -6,24 +6,17 @@
   top: 10%;
 }
 
+/* text section */
+#title {
+  font-family: finkheavymedium;
+  font-size: 2.5rem;
+}
+
 .island-info {
   margin-top: 10px;
   text-align: center;
   top: 45%;
   left: 55%;
-}
-
-.discord, .reddit{
-  width: 100px;
-  padding: 10px;
-}
-
-.discord {
-  margin-left: 45%;
-}
-
-a:hover, a:visited {
-  text-decoration: none;
 }
 
 code {
@@ -32,10 +25,26 @@ code {
 }
 
 
-#title {
-  font-family: finkheavymedium;
-  font-size: 2.5rem;
+/* icons section */
+.discord, .reddit{
+  width: 100px;
+  padding: 10px;
 }
+
+.icons {
+  margin-left: 43%;
+  position: static;
+}
+
+/* .discord {
+  margin-left: 43%;
+} */
+
+a:hover, a:visited {
+  text-decoration: none;
+}
+
+/* font stylesheet */
 
 @font-face {
     font-family: 'finkheavymedium';
