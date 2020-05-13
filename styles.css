@@ -4,10 +4,16 @@
   background-size: cover;
 } */
 
-h3 {
-  position: center;
-}
+@font-face {
+ font-family: "Fink";
+ src: url("fonts/FinkHeavy.ttf");
+ }
 
-strong {
-  font-weight: bold;
+ @font-face {
+  font-family: "humming";
+  src: url("fonts/nintendoP_Humming-E_002pr.otf");
+  }
+
+.island-info {
+  font-family: humming;
 }
