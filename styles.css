@@ -57,6 +57,22 @@ a:hover, a:visited {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .top-image {
+    width: 100%;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  /* For Big-Ass Screens: */
+  .top-image {
+    width: 550px;
+    margin-left: calc(50% - 275px);
+  }
+}
+
 /* font stylesheet */
 
 @font-face {
